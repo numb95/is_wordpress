@@ -1,6 +1,9 @@
 #venv
 venv
 venv/*
+.dist
+.dist/*
+.vscode
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
