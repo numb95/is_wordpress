@@ -17,14 +17,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="is_wordpress",
-    version="0.0.1",
+    version="0.0.2",
     author="AmirHossein Goodarzi",
     author_email="amir@goodarzi.net",
     description="A simple (or useless) Program to check if a website is based on wordpress or not and if it's on wordpress which version does it use.",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/numb95/is_wordpress",
-    download_url='https://github.com/numb95/is_wordpress/archive/0.0.1.tar.gz',
+    download_url='https://github.com/numb95/is_wordpress/archive/0.0.2.tar.gz',
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
