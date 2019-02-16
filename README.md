@@ -8,7 +8,7 @@
 A simple (or useless) Program to check if a website is based on wordpress or not and if it's on wordpress which version does it use.
 
 # Installing 
-soon
+``` pip install is-wordpress```
 
 # Usage 
 ```
