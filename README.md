@@ -27,11 +27,11 @@ optional arguments:
 ## Docker usage
 Build docker image
 ```
-$ docker build -t my_is_wordpress .
+$ docker build -t is_wordpress .
 ```
 Now you can simply invoke `is_wordpress` by:
 ```
-$ docker run --rm my_is_wordpress goodarzi.net
+$ docker run --rm is_wordpress goodarzi.net
 ```
 ## Example
 ``` 
