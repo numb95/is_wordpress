@@ -23,6 +23,16 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
+
+## Docker usage
+Build docker image
+```
+$ docker build -t my_is_wordpress .
+```
+Now you can simply invoke `is_wordpress` by:
+```
+$ docker run --rm my_is_wordpress goodarzi.net
+```
 ## Example
 ``` 
 $ is_wordpress goodarzi.net
