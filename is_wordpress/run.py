@@ -8,6 +8,6 @@ def run():
     args = argparser.parse_args()
     website = get_requests.get_page_requests(args.url)
     if parser.parse_data(website) == None:
-        return "It's now wordpress or cannot identified"
+        return "It's not wordpress or cannot identified"
     if (re.findall('^WordPress.*', parser.parse_data(website))):
         return parser.parse_data(website)
