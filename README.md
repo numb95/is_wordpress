@@ -33,6 +33,11 @@ Now you can simply invoke `is_wordpress` by:
 ```
 $ docker run --rm is_wordpress goodarzi.net
 ```
+
+Or simply run it by **docker hub**
+```
+$ docker run theyahya/is_wordpress goodarzi.net
+```
 ## Example
 ``` 
 $ is_wordpress goodarzi.net
